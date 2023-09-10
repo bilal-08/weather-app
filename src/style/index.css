@@ -198,7 +198,8 @@ h3 {
   .search-icon {
     height: 1.3rem;
     width: 1.3rem;
-    margin-left:10px ;
+    margin-left:10px;
+    margin-right:10px;
   }
   .location-icon {
     height: 1.3rem;
