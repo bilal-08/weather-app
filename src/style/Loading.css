@@ -1,0 +1,16 @@
+
+.Loading-display {
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+    background-color: antiquewhite;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(107, 215, 217, 0.57);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    border: 1px solid rgba(107, 215, 217, 0.16);
+    border-radius: 16px;
+}

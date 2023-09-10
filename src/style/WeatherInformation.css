@@ -1,0 +1,117 @@
+/** Mobile Size **/
+
+@media only screen and (max-width: 690px) {
+  .container{
+    flex-direction: column;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+  }
+  .inner-weather {
+    flex-direction: column;
+    align-items: center;
+  }
+  .inner-weather > span {
+    padding-right: 100px;
+  }
+  .inner-weather > img {
+    margin: 0;
+    padding: 0;
+  }
+  .info-container {
+    width: 80%;
+  }
+  .other-info {
+    justify-content: space-evenly;
+
+  }
+  .other-info > p {
+
+     /* padding-right: 20px; */
+    padding-left: 20px; 
+  }
+}
+
+.container {
+  width: 80%;
+  min-height: 386px;
+  background-color: #BEF6EF;
+  border-radius: 27px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  margin-top: 20px;
+}
+.main-weather {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+.main-weather > h2,p {
+  text-align: center;
+  font-weight: 600;
+}
+
+.inner-weather {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding: 40px 20px 40px 20px;
+  /* padding: 20px; */
+}
+.weather-icon > img{
+  height:125px;
+  width: 175px;
+  padding-left: 20px;
+  padding-right: 20px;
+  
+}
+/* .inner-weather  img {
+  padding-left: 20px;
+  width: 135px;
+  height: 90px;
+  padding-right: 20px;
+} */
+.inner-weather > span {
+  color: #090030;
+  font-family: IBM Plex Sans;
+  font-size: 85px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  /* padding:15px; */
+ width: 50%;
+ text-align: center; 
+}
+
+.info-container {
+  width: 50%;
+  text-align: center;
+}
+
+.other-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.other-info img {
+
+  width: 18px;
+height: 23px;
+}
+.wind img {
+  width: 26px;
+height: 23px;
+}
+
+.pressure img {
+  width: 30px;
+height: 30px;
+}
+.other-info p {
+  width: 30%;
+}
+
+.condition-text {
+  font-size: 25px;
+}
