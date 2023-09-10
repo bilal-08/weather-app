@@ -8,14 +8,12 @@
 
 </div>
 
-  <img  src="https://cdn.discordapp.com/attachments/846342662767902762/1150446511151386694/image.png
-">
+  <img  src="https://cdn.discordapp.com/attachments/846342662767902762/1150446511151386694/image.png">
 
   
   
 
-<img  src="https://cdn.discordapp.com/attachments/846342662767902762/1150447120806068284/image.png
-">
+<img  src="https://cdn.discordapp.com/attachments/846342662767902762/1150447120806068284/image.png">
 
 #### Run in your local machine:
 
