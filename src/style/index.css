@@ -1,6 +1,6 @@
 #root {
   background-color: aqua;
-  background-image: url("../public/background-image.png");
+  background-image: url("/background-image.png");
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
