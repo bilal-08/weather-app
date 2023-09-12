@@ -14,9 +14,9 @@ function App() {
       fetchWeatherData( {"lat": data.coords.latitude,"lon":data.coords.longitude})
     }
     if (navigator.geolocation) {
-      console.log(navigator.geolocation.getCurrentPosition(showPosition));
+      navigator.geolocation.getCurrentPosition(showPosition);
     } else { 
-      alert("This browser Can't Support Geolocation or The permission is blocked")
+      alert("This browser doesn't Support Geolocation")
     }
 }
 

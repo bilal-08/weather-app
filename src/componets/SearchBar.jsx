@@ -6,9 +6,13 @@ const SearchBar = ({getWeather,geoWeather}) => {
   const handleInput = (event) => {
     setInputList(event.target.value);
   }
+  const handleClick = (data) => {
+    getLocation(data)
+} 
 
   const getLocation = (location) => {
     getWeather(location)
+    setInputList("")
   }
 
 
@@ -29,8 +33,9 @@ const SearchBar = ({getWeather,geoWeather}) => {
       <input type="text" className='input-field' value={inputList} placeholder='Search for location' onChange={handleInput} />
       <div className='location-icon' onClick={geoWeather}></div>
      </div>
-     <div className='result-box'>
-     <SearchResultslist weatherLocation={getLocation} data={{inputList}} setList={setInputList} />
+     <div className='result-box'> 
+     {console.log(inputList,"hmm")}
+     <SearchResultslist weatherLocation={getLocation} data={{inputList}} setList={setInputList} handleClick={handleClick} />
      </div>
 
 
