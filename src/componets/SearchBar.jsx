@@ -34,7 +34,6 @@ const SearchBar = ({getWeather,geoWeather}) => {
       <div className='location-icon' onClick={geoWeather}></div>
      </div>
      <div className='result-box'> 
-     {console.log(inputList,"hmm")}
      <SearchResultslist weatherLocation={getLocation} data={{inputList}} setList={setInputList} handleClick={handleClick} />
      </div>
 
