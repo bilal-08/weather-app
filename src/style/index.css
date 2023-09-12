@@ -1,6 +1,6 @@
 #root {
   background-color: aqua;
-  background-image: url("../public/background-image.png");
+  background-image: url("/background-image.png");
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
@@ -21,15 +21,12 @@ body {
 
 .heading {
   display: flex;
-  /* border: 2px solid black; */
 margin-top: 80px;
 
   border-radius: 45px;
   justify-content: start;
   width: 80%;
-  /* backdrop-filter: blur(5px); */
   box-shadow: 2px;
-  
 }
 h3 {
   width:91%;
@@ -40,7 +37,6 @@ h3 {
 }
 .github-icon {
   margin-top: 20px;
-  /* margin-left: 10px; */
   height: 3rem;
   width: 3rem;
   opacity: 0.7;
@@ -61,7 +57,7 @@ h3 {
   align-items: center;
 }
 .search-icon {
-  background-image: url("../public/search-icon.png");
+  background-image: url("/search-icon.png");
   background-repeat: no-repeat;
   background-size: cover;
   height: 1.7rem;
@@ -202,7 +198,8 @@ h3 {
   .search-icon {
     height: 1.3rem;
     width: 1.3rem;
-    margin-left:10px ;
+    margin-left:10px;
+    margin-right:10px;
   }
   .location-icon {
     height: 1.3rem;
